@@ -1,0 +1,22 @@
+Stage 0 — Cry Gate Training Report
+=============================================
+
+Train: 663  Val: 221  Test: 221
+
+Thresholds:
+  τ_low  = 0.7684
+  τ_high = 0.9900
+
+Test Metrics:
+  AUC       = 0.9964
+  Brier     = 0.0240
+  LogLoss   = 0.0762
+  Accuracy  = 0.9638
+  Recall    = 0.9823
+  Precision = 0.9487
+  F1        = 0.9652
+
+Safety:
+  Recall@τ_low     = 0.9381
+  Precision@τ_high = 1.0000
+  Uncertain zone   = 5.4%

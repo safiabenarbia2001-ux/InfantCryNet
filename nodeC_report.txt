@@ -1,0 +1,20 @@
+Node C — Discomfort Sub-type Report
+=============================================
+
+Classes: ['belly_pain', 'burping', 'discomfort']
+Train: 219  Val: 74  Test: 74
+
+Confidence threshold: 0.3500
+
+Test Metrics:
+  Accuracy  = 0.5000
+  F1 macro  = 0.5056
+  LogLoss   = 0.9126
+
+Per-class F1:
+  belly_pain     F1=0.5000
+  burping        F1=0.5957
+  discomfort     F1=0.4211
+
+Mean confidence: 0.5738
+Uncertain zone:  2.7%

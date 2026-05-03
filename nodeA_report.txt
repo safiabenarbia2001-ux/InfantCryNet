@@ -1,0 +1,19 @@
+Node A — Hungry vs Non-Hungry Report
+=============================================
+
+Train: 463  Val: 155  Test: 155
+
+Thresholds:
+  τ_low  = 0.5172
+  τ_high = 0.6500
+
+Test Metrics:
+  AUC       = 0.5604
+  Brier     = 0.2347
+  LogLoss   = 0.6538
+  Accuracy  = 0.5677
+
+  Hungry:     recall=0.9870  precision=0.5352  F1=0.6941
+  Non-hungry: recall=0.1538  F1=0.2637
+
+  Uncertain zone: 90.3%

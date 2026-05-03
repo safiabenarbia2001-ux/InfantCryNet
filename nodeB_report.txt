@@ -1,0 +1,19 @@
+Node B — Tired vs Active Report
+=============================================
+
+Train: 146  Val: 49  Test: 49
+
+Thresholds:
+  τ_low  = 0.3399
+  τ_high = 0.6500
+
+Test Metrics:
+  AUC       = 0.7985
+  Brier     = 0.1776
+  LogLoss   = 0.5153
+  Accuracy  = 0.7143
+
+  Tired:  recall=0.7826  precision=0.6667  F1=0.7200
+  Active: recall=0.6538  F1=0.7083
+
+  Uncertain zone: 36.7%

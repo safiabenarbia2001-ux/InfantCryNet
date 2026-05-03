@@ -1,0 +1,22 @@
+InfantCryNet — Full Evaluation Report
+==================================================
+
+Node A (Hungry vs Non-Hungry):
+  AUC = 0.5604
+  Accuracy = 0.5677
+
+Node B (Tired vs Active):
+  AUC = 0.7985
+  Accuracy = 0.7143
+
+Node C (Discomfort Sub-types):
+  Accuracy = 0.5000
+  F1 macro = 0.5056
+
+Fusion Comparison (Node A):
+  Audio-only accuracy   = 0.5677
+  Audio+Bio accuracy    = 0.8645
+  Audio+Bio+Video acc   = 0.9161
+  Bio improvement       = +0.2968
+  Video improvement     = +0.0516
+  Total improvement     = +0.3484
